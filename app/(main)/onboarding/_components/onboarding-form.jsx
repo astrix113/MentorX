@@ -209,6 +209,6 @@ const OnboardingForm = ({ industries }) => {
       </Card>
     </div>
   );
-};
+}
 
 export default OnboardingForm;
