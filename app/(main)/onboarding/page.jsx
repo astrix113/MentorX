@@ -3,7 +3,7 @@ import React from 'react'
 import OnboardingForm from './_components/onboarding-form'
 import { getUserOnboardingStatus } from '@/actions/user'
 
-const OnboardingPage = async() => {}
+const OnboardingPage = async() => {
   //check if user is alredy onboarded
   const { isOnboarded } = await getUserOnboardingStatus();
   if (isOnboarded) {
